@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary & Background -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo Blue -->
+    <color name="colorBackground">#F5F5F5</color> <!-- White Smoke -->
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#FFC107</color> <!-- Amber Orange -->
+    <color name="colorAccent">#4DB6AC</color> <!-- Teal Green -->
+
+    <!-- Income / Expense -->
+    <color name="colorIncome">#4CAF50</color> <!-- Standard Green -->
+    <color name="colorExpense">#FF5722</color> <!-- Deep Orange -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color> <!-- Dark Gray for readability -->
+    <color name="textSecondary">#757575</color> <!-- Medium Gray for subtext -->
+    <color name="textWhite">#FFFFFF</color> <!-- White (for cards/buttons) -->
+    <color name="textBlack">#000000</color> <!-- Black (when needed) -->
+
+    <!-- Card or Section Background -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Pure white cards on light bg -->
+</resources>
