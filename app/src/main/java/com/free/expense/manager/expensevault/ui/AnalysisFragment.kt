@@ -11,4 +11,5 @@ class AnalysisFragment : BaseFragment<FragmentAnalysisBinding>(FragmentAnalysisB
     override fun allObserver() {
 
     }
+
 }
