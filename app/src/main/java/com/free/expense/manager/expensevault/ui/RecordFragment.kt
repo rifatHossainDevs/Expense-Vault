@@ -12,4 +12,5 @@ class RecordFragment : BaseFragment<FragmentRecordBinding>(FragmentRecordBinding
     override fun allObserver() {
 
     }
+
 }
