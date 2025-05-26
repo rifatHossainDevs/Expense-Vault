@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/record"
-        android:icon="@drawable/record"
+        android:icon="@drawable/record_white"
         android:title="Record" />
 
     <item
