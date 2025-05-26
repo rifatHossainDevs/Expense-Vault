@@ -3,7 +3,14 @@
     <style name="Base.Theme.ExpenseVault" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigation</item>
     </style>
 
     <style name="Theme.ExpenseVault" parent="Base.Theme.ExpenseVault" />
+
+    <style name="Theme.ExpenseVault.MainActivity" parent="Base.Theme.ExpenseVault">
+        <item name="android:statusBarColor">@color/colorPrimary</item> <!-- Status bar background -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Dark text -->
+    </style>
+
 </resources>
