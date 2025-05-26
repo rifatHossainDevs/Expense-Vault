@@ -13,5 +13,4 @@ class BudgetsFragment : BaseFragment<FragmentBudgetsBinding>(FragmentBudgetsBind
 
     }
 
-
 }
