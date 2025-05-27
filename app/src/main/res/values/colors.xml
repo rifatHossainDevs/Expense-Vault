@@ -10,9 +10,10 @@
     <!-- Secondary Colors -->
     <color name="colorSecondary">#FFC107</color> <!-- Amber Orange -->
     <color name="colorAccent">#4DB6AC</color> <!-- Teal Green -->
+    <color name="total_balance_bg">#3F7DFE</color> <!-- A soft indigo-blue -->
 
     <!-- Income / Expense -->
-    <color name="colorIncome">#4CAF50</color> <!-- Standard Green -->
+    <color name="colorIncome">#00b386</color> <!-- Standard Green -->
     <color name="colorExpense">#FF5722</color> <!-- Deep Orange -->
 
     <!-- Text Colors -->
