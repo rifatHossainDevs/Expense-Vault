@@ -10,16 +10,16 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_totalBalance"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_16sdp"
         android:layout_marginVertical="@dimen/_8sdp"
         android:backgroundTint="@color/total_balance_bg"
         app:cardCornerRadius="@dimen/_12sdp"
-        app:cardElevation="@dimen/_12sdp">
+        app:cardElevation="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,8 +44,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="$5,200.00"
                 android:textAllCaps="true"
-                android:textSize="@dimen/_20sdp"
-                android:textColor="@color/textWhite" />
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/_20sdp" />
 
         </LinearLayout>
 
@@ -55,20 +55,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="@dimen/_8sdp"
-        app:layout_constraintTop_toBottomOf="@id/cv_totalBalance"
-        app:layout_constraintStart_toStartOf="@id/cv_totalBalance">
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/cv_totalBalance"
+        app:layout_constraintTop_toBottomOf="@id/cv_totalBalance">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_income"
-            android:layout_marginStart="@dimen/_16sdp"
             android:layout_width="0dp"
-            android:layout_marginEnd="@dimen/_4sdp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_weight="1"
             android:backgroundTint="@color/white"
-            app:cardCornerRadius="@dimen/_12sdp"
-            android:layout_weight="1">
+            app:cardCornerRadius="@dimen/_12sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,10 +79,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
                     android:text="income"
                     android:textAllCaps="true"
                     android:textColor="@color/black" />
@@ -90,7 +90,7 @@
                 <ImageView
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
-                    android:src="@drawable/income_arrow"/>
+                    android:src="@drawable/income_arrow" />
 
                 <TextView
                     android:id="@+id/tv_income_amount"
@@ -99,8 +99,8 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="$5,200.00"
                     android:textAllCaps="true"
-                    android:textSize="@dimen/_20sdp"
-                    android:textColor="@color/colorIncome" />
+                    android:textColor="@color/colorIncome"
+                    android:textSize="@dimen/_20sdp" />
 
             </LinearLayout>
 
@@ -108,12 +108,12 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
-            android:layout_marginStart="@dimen/_4sdp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            app:cardCornerRadius="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_4sdp"
             android:layout_marginEnd="@dimen/_16sdp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="@dimen/_12sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -124,10 +124,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
                     android:text="Expense"
                     android:textAllCaps="true"
                     android:textColor="@color/black" />
@@ -135,7 +135,7 @@
                 <ImageView
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
-                    android:src="@drawable/expese_arrow"/>
+                    android:src="@drawable/expese_arrow" />
 
                 <TextView
                     android:id="@+id/tv_expense_amount"
@@ -144,8 +144,8 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="$5,200.00"
                     android:textAllCaps="true"
-                    android:textSize="@dimen/_20sdp"
-                    android:textColor="@color/colorExpense" />
+                    android:textColor="@color/colorExpense"
+                    android:textSize="@dimen/_20sdp" />
 
             </LinearLayout>
 
@@ -153,11 +153,6 @@
 
 
     </LinearLayout>
-
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
